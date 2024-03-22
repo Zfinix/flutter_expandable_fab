@@ -85,6 +85,7 @@ class DefaultFloatingActionButtonBuilder extends FloatingActionButtonBuilder {
               onPressed: onPressed,
               child: child,
               elevation: 0,
+              focusElevation: 0,
             );
           },
         );
