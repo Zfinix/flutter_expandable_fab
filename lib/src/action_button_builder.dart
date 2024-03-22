@@ -84,6 +84,7 @@ class DefaultFloatingActionButtonBuilder extends FloatingActionButtonBuilder {
               heroTag: heroTag,
               onPressed: onPressed,
               child: child,
+              elevation: 0,
             );
           },
         );
